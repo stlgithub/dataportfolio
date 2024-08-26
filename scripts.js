@@ -1,12 +1,18 @@
-document.querySelectorAll('.filter-buttons button').forEach(button => {
-    button.addEventListener('click', () => {
-        const category = button.getAttribute('data-filter');
-        document.querySelectorAll('.portfolio-grid .project').forEach(project => {
-            if (category === 'all' || project.getAttribute('data-category') === category) {
-                project.style.display = 'block';
-            } else {
-                project.style.display = 'none';
-            }
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".filter-buttons button");
+    const projects = document.querySelectorAll(".project");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const filter = button.getAttribute("data-filter");
+
+            projects.forEach(project => {
+                if (project.getAttribute("data-category") === filter || filter === "all") {
+                    project.style.display = "block";
+                } else {
+                    project.style.display = "none";
+                }
+            });
         });
     });
 });
