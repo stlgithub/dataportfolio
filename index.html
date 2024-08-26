@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <!-- Add other menu items here -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="filter-buttons">
+            <button data-filter="all">Show all</button>
+            <button data-filter="data-mining">Data mining</button>
+            <!-- Add other filter buttons here -->
+        </div>
+        <div class="portfolio-grid">
+            <div class="project" data-category="data-mining">
+                <img src="project1.png" alt="Project 1">
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
