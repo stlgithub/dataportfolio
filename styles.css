@@ -126,17 +126,17 @@ main {
 }
 
 .carousel-slide {
-    flex: 1 0 100%;
-    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the image horizontally within the carousel slide */
+    align-items: center;     /* Center the image vertically within the carousel slide */
+    height: 100%;            /* Ensure the slide takes up the full height of the carousel */
 }
 
 .carousel-slide img {
-    width: 80%; /* Scale down the image to 80% of its container's width */
-    height: auto; /* Maintain the aspect ratio */
-    max-width: 600px; /* Set a maximum width to ensure it's not too large */
+    width: 80%;              /* Scale down the image to 80% of its container's width */
+    height: auto;            /* Maintain the aspect ratio */
+    max-width: 600px;        /* Set a maximum width to ensure it's not too large */
     border-radius: 8px;
-    margin: 0 auto; /* Center the image horizontally */
-    display: block;
 }
 
 input[name="carousel"] {
