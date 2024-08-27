@@ -114,7 +114,7 @@ main {
 }
 
 .carousel {
-    max-width: 100px;
+    max-width: 400px;
     margin: 0 auto 40px auto;
     position: relative;
 }
@@ -135,7 +135,7 @@ main {
 .carousel-slide img {
     width: 80%;              /* Scale down the image to 80% of its container's width */
     height: auto;            /* Maintain the aspect ratio */
-    max-width: 800px;        /* Set a maximum width to ensure it's not too large */
+    max-width: 600px;        /* Set a maximum width to ensure it's not too large */
     border-radius: 8px;
 }
 
