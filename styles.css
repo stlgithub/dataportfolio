@@ -76,7 +76,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 500px;
+    gap: 200px;
 }
 
 .project {
