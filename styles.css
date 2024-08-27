@@ -121,15 +121,15 @@ main {
 
 .carousel-slides {
     display: flex;
-    overflow: hidden;
-    width: 300%;
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* 100% for each slide in a 3-slide carousel */
 }
 
 .carousel-slide {
+    flex: 0 0 100%; /* Each slide takes up 100% of the container width */
     display: flex;
-    justify-content: center; /* Center the image horizontally within the carousel slide */
-    align-items: center;     /* Center the image vertically within the carousel slide */
-    height: 100%;            /* Ensure the slide takes up the full height of the carousel */
+    justify-content: center; /* Center the image horizontally within the slide */
+    align-items: center;     /* Center the image vertically within the slide */
 }
 
 .carousel-slide img {
