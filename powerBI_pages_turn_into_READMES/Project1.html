@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCAA Revenues and Expenses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+                <li><a href="#">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-banner">
+            <h1>NCAA Revenues and Expenses</h1>
+        </section>
+
+
+        <section class="image-switcher">
+            <input type="radio" name="image" id="image1" checked>
+            <input type="radio" name="image" id="image2">
+        
+            <div class="images">
+                <div class="image" id="image1-content">
+                    <img src="screenshots\wow_week4.png" alt="Image 1">
+                </div>
+                <div class="image" id="image2-content">
+                    <img src="screenshots\wow_week4_2.png" alt="Image 2">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-description">
+            <p style="text-align: left;">
+                <br>!!! NOTE: Unfortunately Power BI does not allow users to upload their works online without a work or school email. As I do not have such an email, I had to upload only screenshots of my projects. If you would like to download the Power Bi files from my GitHub page, <a href="https://github.com/stlgithub/dataportfolio/blob/main/powerbi_files/Project2.pbix">click here.</a> !!!<br><br>
+                The dataset used in this project breaks down NCAA athletic department expenses and revenues by year. The dataset can be found by <a href="https://data.world/jbaucke/2021-w1-power-bi-wow-ncaa-financials">clicking here.</a><br><br>
+                The steps I took in this project:<br><br>
+                First I cleaned the data to remove null values and unwanted data.<br>
+                I then created a new field that calculates total profits, after which I created a KPI dashboard including a linechart and a bar chart for the revenues, expenses, and profits on each conference.<br>
+                I added a slicer for picking a desired year, and made sure it only altered the KPI and barchard, not the line chart.<br>
+                I created a second page to showcase the same information, but this time for Schools rather than the conferences.<br><br>
+                After all of this, I added Accessibility features to the analysis:<br>
+                Firstly I made sure the colors of the page have good enough of a contrast, using contrastchecker.com.<br>
+                I added alt text to every element of the dashboard, to help with screenreaders. I also made sure each element has a descriptive title, even if its hidden in the visualisation.<br>
+                Finally, I adjusted the tab order of the elements used in the dasboard.
+            </p>
+        </section>
+
+        <section class="back-button">
+            <a href="index.html" class="btn-back">← Back to Portfolio</a>
+        </section>
+    </main>
+</body>
+</html>
