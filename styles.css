@@ -78,7 +78,7 @@ main {
     padding-left: 0; /* Remove padding */
     margin-left: 0; /* Remove margin */
     text-align: left; /* Align the list to the left */
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 1000px; /* Limit width for better readability */
     margin: 40px auto; /* Center the list on the page */
 }
 
@@ -99,7 +99,7 @@ main {
 
 /* Small description text */
 .project-list .project-description {
-    font-size: 0.9em; /* Smaller font size for descriptions */
+    font-size: 0.5em; /* Smaller font size for descriptions */
     color: #555555; /* Slightly lighter color for contrast */
     margin-top: 5px; /* Add a small gap between title and description */
     padding-left: 10px; /* Align with project title */
