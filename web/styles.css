@@ -99,7 +99,7 @@ main {
 
 /* Small description text */
 .project-list .project-description {
-    font-size: 0.8em; /* Smaller font size for descriptions */
+    font-size: 0.7em; /* Smaller font size for descriptions */
     color: #555555; /* Slightly lighter color for contrast */
     margin-top: 5px; /* Add a small gap between title and description */
     padding-left: 10px; /* Align with project title */
