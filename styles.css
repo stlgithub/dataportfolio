@@ -72,6 +72,32 @@ main {
     background-color: #0056b3;
 }
 
+/* Styles for project list */
+.project-list ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove padding */
+    margin-left: 0; /* Remove margin */
+    text-align: left; /* Align the list to the left */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 40px auto; /* Center the list on the page */
+}
+
+.project-list li {
+    margin-bottom: 20px; /* Increase gap between list items */
+    font-size: 1.5em; /* Increase font size */
+    padding-left: 10px; /* Add a little padding for better spacing */
+}
+
+.project-list a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue color for links */
+}
+
+.project-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Project gallery for non-list view (can be removed if not used) */
 .project-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +107,7 @@ main {
 }
 
 .project {
-    width: calc(50% - 20px); /* 33.333% for three items per row, minus the gap */
+    width: calc(50% - 20px); /* 50% for two items per row, minus the gap */
     text-align: center;
     margin-bottom: 20px; /* Add some margin at the bottom for spacing between rows */
 }
