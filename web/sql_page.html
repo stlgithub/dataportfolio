@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+                <li><a href="#">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="portfolio-intro">
+            <h1>PORTFOLIO</h1>
+            <p>A small selection of things I've worked on</p>
+        </section>
+
+        <section class="filter-buttons">
+            <a href="index.html">
+                <button data-filter="powerbi">Power BI</button>
+            </a>
+            <!-- <button data-filter="tableau">Tableau</button> -->
+            <!-- <button data-filter="looker">Google Looker</button> -->
+            <!-- <button data-filter="python">Python</button> -->
+            <a href="sql_page.html">
+                <button data-filter="sql">SQL</button>
+            </a>
+        </section>
+
+        <section class="project-list">
+            <ul>
+                <li data-category="powerbi">
+                    <a href="https://github.com/stlgithub/dataportfolio/tree/main/SQL_1/README.md">
+                        Data Analysis - Data Analyst Jobs and Skills
+                    </a>
+                    <p class="project-description">An analysis of Great Lakes ice coverage using Power BI to forecast trends and detect anomalies.</p>
+                </li>
+                <li data-category="powerbi">
+                    <a href="https://github.com/stlgithub/dataportfolio/tree/main/SQL_2/README.md">
+                        Data Cleaning - Nashville Housing
+                    </a>
+                    <p class="project-description">Exploring the accessibility and visualization of NCAA financial data using Power BI dashboards.</p>
+                </li>
+                <li data-category="powerbi">
+                    <a href="https://github.com/stlgithub/dataportfolio/tree/main/SQL_3/README.md">
+                        Data Exploration - Covid
+                    </a>
+                    <p class="project-description">Comparing college completion rates and poverty levels across regions with bivariate choropleth maps.</p>
+                </li>
+                <!-- More list items -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
