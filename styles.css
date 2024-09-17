@@ -78,7 +78,7 @@ main {
     padding-left: 0; /* Remove padding */
     margin-left: 0; /* Remove margin */
     text-align: left; /* Align the list to the left */
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 1000px; /* Limit width for better readability */
     margin: 40px auto; /* Center the list on the page */
 }
 
