@@ -22,6 +22,11 @@ I then deleted the unwanted columns of data, and created bins for both College C
 
 I used a SWITCH() function to create 9 different combinations between the In Poverty and College Completed values, all of which were represented with different color coding, similar to conditional formatting.
 
+<p float="left">
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project5.png" width="500" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project5_2.png" width="500" /> 
+</p>
+
 ### 3. Maps
 
 I then created a page for both, a ArcGIS Map and a Filled Map.
@@ -36,6 +41,8 @@ After some additional data cleaning,
 ### 2. Bubble Chart
 
 I created a bubble chart showing life expecanty by average income over time, with each bubble representing a region by color, and population size by size.
+
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project6.png)
 
 ### 3. Custom Overlay
 
