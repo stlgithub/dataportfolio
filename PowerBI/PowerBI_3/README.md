@@ -23,6 +23,8 @@ Using conditional formatting I made it so that the color of the ice coverage wou
 
 Afterwards, I added the rest of the visualisations on the dasboard; the column chart, the linechart with a trendline, and the slicer to select the desired range of years.
 
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3.png)
+
 ### 4. Forecasting
 
 I then created the second page, in which I added another line chart with forecasting all the way to the year 2030.
@@ -34,3 +36,5 @@ In a second linechart on the same page, I displayed the anomalies at 75% sensiti
 ### 6. Smart Narrative
 
 I also added a Smart Narrative to the left hand side of the dashboard. I did not alter it at all, as I only wanted to demonstrate that the functionality is there in case I wanted to use it.
+
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3_2.png)
