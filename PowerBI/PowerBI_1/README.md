@@ -26,6 +26,8 @@ I added a slicer for picking a desired year, and made sure it only altered the K
 
 I created a second page to showcase the same information, but this time for Schools rather than the conferences.
 
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1_2.png)
+
 ### 4. Accessibility
 
 After all of this, I added Accessibility features to the analysis:
