@@ -21,3 +21,5 @@ Created a matrix, column chart, bar chart, horizontal slicer
 ### 3. Visuals
 
 Improved visuals to be more aesthetically pleasing.
+
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_4/Project4.png)
