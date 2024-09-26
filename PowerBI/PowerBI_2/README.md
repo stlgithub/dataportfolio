@@ -28,12 +28,7 @@ I then created views, using a linechart, barchart, and other selected informatio
 I created a measure using the SWITCH() function, to allow the user to change between each report, so that not only the correct information is displayed, but that the colors of the report also change to match which of the pages is being viewed.
 
 <p float="left">
-  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png" width="100" />
-  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_2.png" width="100" /> 
-  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_3.png" width="100" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png" width="500" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_2.png" width="500" /> 
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_3.png" width="500" />
 </p>
-
-
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png)
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_2.png)
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_3.png)
