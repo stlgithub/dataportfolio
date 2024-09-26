@@ -8,6 +8,7 @@ The dataset can be found by [clicking here.](https://data.world/jbaucke/2021-w1-
 
 Here are two projects:
 First, we use Bivariate Choropleth Map to study poverty vs college completion in Michigan.
+
 Second, we study the effects of income to life expectany using a bubble chart.
 
 # First Project Steps Taken
