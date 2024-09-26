@@ -20,6 +20,8 @@ I then created a new field that calculates total profits,
 after which I created a KPI dashboard including a linechart and a bar chart for the revenues, expenses, and profits on each conference.
 I added a slicer for picking a desired year, and made sure it only altered the KPI and barchard, not the line chart.
 
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1.png)
+
 ### 3. School Page
 
 I created a second page to showcase the same information, but this time for Schools rather than the conferences.
