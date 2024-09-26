@@ -22,4 +22,4 @@ Created a matrix, column chart, bar chart, horizontal slicer
 
 Improved visuals to be more aesthetically pleasing.
 
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_4/Project_4.png)
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_4/PowerBI_4.png)
