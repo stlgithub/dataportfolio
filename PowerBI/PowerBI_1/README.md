@@ -1,4 +1,7 @@
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1.png) ![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1_2.png)
+<p float="left">
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1.png" width="500" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1_2.png" width="500" />
+</p>
 
 # Introduction
 
