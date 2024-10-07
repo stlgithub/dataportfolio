@@ -29,7 +29,7 @@ Using conditional formatting I made it so that the color of the matrix would cha
                 
 ### 3. Dashboard elements
 
-Afterwards, I added the rest of the visualisations on the dasboard; the column chart, the linechart with a trendline, and the slicer to select the desired range of years.
+I created the rest of the visualisations seen on the dasboard; the column chart, the linechart with a trendline, and the slicer to select the desired range of years.
 
 ![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3.png)
 
@@ -45,10 +45,10 @@ In Analytics > Find Anomalies I turned on find anomalies, and set the sensitivit
 
 Finally, I added a table, which displays Minimum and Maximum Coverage of each Lake.
 
+![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3_2.png)
+
 ### 6. Smart Narrative
 
 As a bonus I also added a Smart Narrative to the left hand side of the dashboard.
 
 I did not alter the text automatically generated in it, since this was mostly for the purposes of me testing/demonstration the fact that this functionality is available.
-
-![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3_2.png)
