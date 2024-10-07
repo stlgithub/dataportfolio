@@ -1,7 +1,7 @@
 ### Preview
 <p float="left">
-  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1.png" width="333" />
-  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1_2.png" width="333" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png" width="333" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_2.png" width="333" /> 
   <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_3.png" width="333" />
 </p>
 
