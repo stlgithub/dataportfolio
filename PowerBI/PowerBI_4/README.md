@@ -15,12 +15,12 @@ This project examines Austin Animal Center's Intakes and Outcomes based on facto
 
 ### 1. Data preparation
 
-Filtered the report page to only show years after 2013
+I made sure to filter the data used so that it would only display data from after the year 2013. Besides this, only minimal clean up was needed to be done.
 
 ### 2. Dashboard
 
-Created a matrix, column chart, bar chart, horizontal slicer
+For the dashboard I created a table showing the outcomes and intakes of each animal type.
 
-### 3. Visuals
+Next, I created column charts displaying outcomes based on the outcome type, as well as the sex of the animal.
 
-Improved visuals to be more aesthetically pleasing.
+Finally, I created a barchart to display outcome by animal breed, and a slicer to change between the years from which the data is displayed.
