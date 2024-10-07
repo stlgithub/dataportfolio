@@ -1,7 +1,14 @@
+### Preview
+<p float="left">
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1.png" width="333" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_1/Project1_2.png" width="333" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2_3.png" width="333" />
+</p>
+
 # Introduction
 
-NOTE: Unfortunately Power BI does not allow users to upload their works online without a work or school email. As I do not have such an email, I had to upload only screenshots of my projects.
-You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/powerbi_files/Project2.pbix)
+###### <em>NOTE: Unfortunately Power BI does not allow users to upload their works online without a work or school email. As I do not have such an email, I cant link to an online version of the dashboard.
+###### You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/powerbi_files/Project2.pbix)</em>
 
 The dataset used in this project breaks down NCAA athletic department expenses and revenues by year.
 The dataset can be found by [clicking here.](https://data.world/jbaucke/2021-w1-power-bi-wow-ncaa-financials).
