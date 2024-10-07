@@ -32,7 +32,7 @@ I also adjusted the background color to make it contrast better with the element
 
 ### 3. Measures
 
-Firstly, I created a measure that allows the user to change between what infomartion is being diplayed (Revenues, Expenses, or Profits) simply by clicking a button.
+Firstly, I created a SWITCH() function that allows the user to change between what infomartion is being diplayed (Revenues, Expenses, or Profits) simply by clicking a button.
 ```
 Selected Measure = 
 SWITCH(
@@ -43,8 +43,35 @@ SWITCH(
     BLANK()  // Default case if nothing is selected
 )
 ```
+Additionally I created measures to calculate and display the current years, previous years, and year over year data regarding Revenues, Expeses, and Profits.
+```
+CurrentYear = 
+var max_year = CALCULATE(MAX(finances_fact[Year]))
+RETURN
+CALCULATE(
+    [Selected Measure],
+    finances_fact[Year]=max_year)
+```
+```
+Previous Year = 
+var previous_year = CALCULATE(MAX(finances_fact[Year]))-1
+RETURN
+CALCULATE(
+    [Selected Measure],
+    finances_fact[Year]=previous_year)
+```
+```
+Year Over Year = DIVIDE([CurrentYear]-[Previous Year],[Previous Year])
+```
+
 ### 4. Dashboard
 
+I added a title and created a single select slicer that allows the user to change the information displayed, by using the SWITCH() statement.
+
+For the background of the dashboard I used a blank square, and set it to change color based on the SWITCH statement, and the previously created table Measures table.
+
+Next I added the cards, displaying the Current Year, Previous Year, and Year over Year information.
+I also added a barchart and linechart, which I made sure also used the right colors based on the SWITCH statement.
 
 <p float="left">
   <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png" width="500" />
