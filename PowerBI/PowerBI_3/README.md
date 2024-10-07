@@ -1,7 +1,13 @@
+### Preview
+<p float="left">
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3.png" width="500" />
+  <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3_2.png" width="500" /> 
+</p>
+
 # Introduction
 
-NOTE: Unfortunately Power BI does not allow users to upload their works online without a work or school email. As I do not have such an email, I had to upload only screenshots of my projects.
-You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/powerbi_files/Project2.pbix)
+###### <em>NOTE: Unfortunately Power BI does not allow users to upload their works online without a work or school email. As I do not have such an email, I cant link to an online version of the dashboard.
+###### You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/powerbi_files/Project2.pbix)</em>
 
 The dataset used in this project breaks down NCAA athletic department expenses and revenues by year.
 The dataset can be found by [clicking here.](https://data.world/jbaucke/2021-w1-power-bi-wow-ncaa-financials).
@@ -12,12 +18,14 @@ this project uses the maximum ice coverage data from NOAA’s Great Lakes Enviro
 
 ### 1. Data preparation
 
-Firstly I used Power Query to transfrom all of the individual lake columns in the dataset into rows.
+For data preparation I simply used Power Query to unpivot all of the individual lake columns in the dataset into rows.
+
+Secondly, I made sure the Year column was in the format of Date as opposed to Whole Number.
 
 ### 2. Matrix and Conditional Formatting
 
-Then I created a matrix to visualise the ice coverage by lake and year.
-Using conditional formatting I made it so that the color of the ice coverage would change between five different colors, based on selected variables.
+I created a matrix to visualise the maximum ice coverage for each lake by year.
+Using conditional formatting I made it so that the color of the matrix would change between five different shades of blue, based on the ice coverage. The values for the different shades were 0-24.99, 25-49.99, 50-74.99, 75-99.99, and 100.
                 
 ### 3. Dashboard elements
 
@@ -25,16 +33,22 @@ Afterwards, I added the rest of the visualisations on the dasboard; the column c
 
 ![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3.png)
 
-### 4. Forecasting
+### 4. Forecasting, Anomaly Detection, and Table
 
-I then created the second page, in which I added another line chart with forecasting all the way to the year 2030.
+I then created the second page, in which I added another line chart for average coverage by year.
 
-### 5. Anomaly Detection
+In the Analytics > Forecast tab, I turned forecasting on and made sure the forecasting was up until the year 2030 on the chart.
 
-In a second linechart on the same page, I displayed the anomalies at 75% sensitivity.
+In a second linechart I displayed the anomalies in average coverage by year.
+
+In Analytics > Find Anomalies I turned on find anomalies, and set the sensitivity for anomaly detection to 75%.
+
+Finally, I added a table, which displays Minimum and Maximum Coverage of each Lake.
 
 ### 6. Smart Narrative
 
-I also added a Smart Narrative to the left hand side of the dashboard. I did not alter it at all, as I only wanted to demonstrate that the functionality is there in case I wanted to use it.
+As a bonus I also added a Smart Narrative to the left hand side of the dashboard.
+
+I did not alter the text automatically generated in it, since this was mostly for the purposes of me testing/demonstration the fact that this functionality is available.
 
 ![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3_2.png)
