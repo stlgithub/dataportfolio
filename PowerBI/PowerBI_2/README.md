@@ -19,20 +19,32 @@ This project breaks down the revenues, profits, and expenses of the NCAA in a ve
 
 ### 1. Data preparation
 
-First I cleaned the data to remove null values and unwanted data.
-I then created a new field that calculates total profits, 
+For this dashboard I used data from a previous dashboard. You can find more about the data preparation I did for that project here.
+
+For the purposes of a SWITCH statement, I created a new Table, which had Measures column, with 3 rows of information: Total Revenues, Total Expenses, and Total Profits.
+Similarly, I created Order column, with rows with the data 1, 2, and 3.
 
 ### 2. Vertical settings
 
-I adjusted the size and shape of the dashboard to be vertical, to simulate a dashboard that could be viewed on a smartphone or simlilar device.
+I formatted the report canvas by choosing the Letter layout from the Page size > Type drop down menu.
 
-### 3. Dashboard
+I also adjusted the background color to make it contrast better with the elements I would later add.
 
-I then created views, using a linechart, barchart, and other selected information displayed using cards, for Revenues, Expenses and Profits.
+### 3. Measures
 
-### 4. SWITCH()
+Firstly, I created a measure that allows the user to change between what infomartion is being diplayed (Revenues, Expenses, or Profits) simply by clicking a button.
+```
+Selected Measure = 
+SWITCH(
+    VALUES('Measure'[Measure]),
+    "Total Revenues", SUM(finances_fact[Total Revenues]),
+    "Total Expenses", SUM(finances_fact[Total Expenses]),
+    "Total Profits", SUM(finances_fact[Total Profits]),
+    BLANK()  // Default case if nothing is selected
+)
+```
+### 4. Dashboard
 
-I created a measure using the SWITCH() function, to allow the user to change between each report, so that not only the correct information is displayed, but that the colors of the report also change to match which of the pages is being viewed.
 
 <p float="left">
   <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.png" width="500" />
