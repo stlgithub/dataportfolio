@@ -3,6 +3,7 @@
   <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project5.png" width="500" />
   <img src="https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project5_2.png" width="500" /> 
 </p>
+
 ### Preview 2
 ![Completed image of the Conference Page](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project6.png)
 
