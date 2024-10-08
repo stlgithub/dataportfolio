@@ -4,12 +4,12 @@
 ###### You can download the Power Bi files for the first project [by clicking here,](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project5.pbix) and for the second project [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_5/Project6.pbix)</em>
 
 Here are two projects:
+
 First, we use Bivariate Choropleth Map to study poverty vs college completion in Michigan.
 
-The dataset is originally sourced from the US Department of Agriculture website, and it contains data for Michigan’s 83 counties for % of population in poverty and % of population who have completed a college education.
+The dataset is originally sourced from the US Department of Agriculture website, and it contains data for Michigan’s 83 counties.
 
 The dataset can be found by [clicking here.](https://www.ers.usda.gov/data-products/county-level-data-sets)
-
 
 Second, we study the effects of income to life expectany using a bubble chart.
 
