@@ -10,7 +10,7 @@ First, we use Bivariate Choropleth Map to study poverty vs college completion in
 The dataset is originally sourced from the US Department of Agriculture website, and it contains data for Michigan’s 83 counties.
 
 The dataset can be found by [clicking here.](https://www.ers.usda.gov/data-products/county-level-data-sets)
-
+/n
 Second, we study the effects of income to life expectany using a bubble chart.
 
 This project uses data from GapMinder.
