@@ -11,7 +11,7 @@
 ###### You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_2/Project2.pbix)</em>
 
 The dataset used in this project breaks down NCAA athletic department expenses and revenues by year.
-The dataset can be found by [clicking here.](https://data.world/jbaucke/2021-w1-power-bi-wow-ncaa-financials).
+The dataset can be found by [clicking here.](https://data.world/jbaucke/2021-w1-power-bi-wow-ncaa-financials)
 
 This project breaks down the revenues, profits, and expenses of the NCAA in a vertical, smart device friendly visualisation..
 
