@@ -10,7 +10,7 @@
 ###### You can download the Power Bi files [by clicking here.](https://github.com/stlgithub/dataportfolio/blob/main/PowerBI/PowerBI_3/Project3.pbix)</em>
 
 This project uses the maximum ice coverage data from NOAA’s Great Lakes Environmental Research Laboratory.
-The dataset can be found by [clicking here.](https://data.world/dataveld/wow2021week07).
+The dataset can be found by [clicking here.](https://data.world/dataveld/wow2021week07)
 
 
 # Steps Taken
