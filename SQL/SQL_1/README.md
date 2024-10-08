@@ -1,10 +1,10 @@
 # Introduction
-Dive into the data job market! Focusing on data analyst roles, this project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
+Focusing on data analyst roles, this project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
 
 You can check out the SQL queries [here.](https://github.com/stlgithub/dataportfolio/tree/main/SQL/SQL_1/portfolio_project)
 
 # Background
-Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
+This project was born from a desire to hone my SQL skills, and my interest in learning more about the Data Analyst field, and the jobs within.
 
 Data hails from [Luke Barousse](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
 
@@ -16,7 +16,6 @@ Data hails from [Luke Barousse](https://lukebarousse.com/sql). It's packed with 
 5. What are the most optimal skills to learn?
 
 # Tools I Used
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 - **SQL**: The backbone of my analysis, allowing me to query the database and unearth critical insights.
 - **PostgreSQL**: The chosen database management system, ideal for handling the job posting data.
 - **Visual Studio Code**: My go-to for database management and executing SQL queries.
@@ -164,10 +163,10 @@ Here's a breakdown of the most optimal skills for Data Analysts in 2023:
 - **Database Technologies:** The demand for skills in traditional and NoSQL databases (Oracle, SQL Server, NoSQL) with average salaries ranging from $97 786 to $104 534, reflects the enduring need for data storage, retrieval, and management expertise.
 
 # What I Learned
-Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
-- **Complex Query Crafting:** Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table manuevers.
-- **Data Aggregation:** Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
-- **Analytical Wizardry:** Leveled up my real-world puzzle-solvng skills, turning questions into actionable, insightful SQL queries.
+Throughout this project, I've gotten a great opportunity to improve my skills with SQL and as a data analyst in general:
+- **Complex Query Crafting:** Plenty of practice with advanced SQL, merging tables like a pro and wielding WITH clauses to create temp tables.
+- **Data Aggregation:** Got familiar with GROUP BY and added aggregate functions like COUNT() and AVG() into my data-summarizing arsenal.
+- **Analytical Wizardry:** Imrpoved up my real-world puzzle-solvng skills, turning questions into actionable, insightful SQL queries.
 
 # Conclusions
 ### Insights
@@ -178,4 +177,4 @@ Throughout this adventure, I've turbocharged my SQL toolkit with some serious fi
 5. **Optimal Skills for Job Market Value**: SQL leads in demand and offers for high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
 
 ### Closing Thoughts
-This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill developmetn and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
