@@ -48,6 +48,6 @@ Finally, I added a table, which displays Minimum and Maximum Coverage of each La
 
 ### 6. Smart Narrative
 
-As a bonus I also added a Smart Narrative to the left hand side of the dashboard.
+As a bonus I also decided to try PowerBI's AI tool, Smart Narrative, on the left hand side of the dashboard.
 
-I did not alter the text automatically generated in it, since this was mostly for the purposes of me testing/demonstration the fact that this functionality is available.
+I did not alter the AI generated text, since this was mostly for the purposes of me testing/demonstration the fact that this functionality is available.
